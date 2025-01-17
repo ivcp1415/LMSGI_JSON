@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Productes d'una botiga-->
+<botiga>
+	<!--Primer producte-->
+	<producte codi="a890">
+		<fabricant>
+			<nomFabr>Apple</nomFabr>
+		</fabricant>
+		<categoria>Electronica</categoria>
+		<nom>Iphone 16</nom> 
+		<descripcio>Dispositiu mobil</descripcio>
+		<disponibilitat quantitat="25">En stock</disponibilitat>
+		<imatge>https://www.apple.com/euro/iphone-16/a/generic/images/meta/iphone-16_overview__fcivqu9d5t6q_og.png</imatge>
+		<preu moneda="EUR">900</preu>
+	</producte>
+	
+	<!--segon producte -->
+	<producte codi="a102" >
+		<fabricant >
+			<nomFabr>Editorial Alpina</nomFabr>
+		</fabricant>
+		<categoria>Muntanya i aventura</categoria>
+		<nom>Taga Serra Cavallera</nom> 
+		<descripcio>Mapa 1:25000</descripcio>
+		<disponibilitat quantitat="0">No disponible</disponibilitat>
+		<imatge>https://www.editorialalpina.com/alpina2018/wp-content/uploads/2014/02/TAGA_9788480907309-350x628.jpg</imatge>
+		<preu moneda="EUR">12</preu>
+	</producte>
+</botiga>
