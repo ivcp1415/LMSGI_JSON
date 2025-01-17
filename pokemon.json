@@ -1,0 +1,70 @@
+{
+    "pokemons": [
+        {
+            "id":2,
+            "nom":"Ivysaur",
+            "tipus":["Planta","Veneno"],
+            "pes":"13kg",
+            "altura":"1.0m",
+            "estadistiques":{
+                "velocitat":2,
+                "fortalesa":3,
+                "precisio":5,
+                "resistencia":5
+            },
+            "moviments": [
+                {
+                    "nom":"Rayo Solar",
+                    "descripcio":"El Pokemon que utiliza este movimiento concentra la energia solar un turno, para liberar un rayo que causa dano.",
+                    "potencia":120,
+                    "contacte":false
+                },
+                {
+                    "nom":"Golpe cuerpo",
+                    "descripcio":"Golpe cuerpo causa danyo y tiene una probabilidad del 30% de paralizar al objetivo, solo si no es de tipo normal.",
+                    "potencia":100,
+                    "contacte":true
+                }
+
+            ],
+            "imatge":"https://images.wikidexcdn.net/mwuploads/wikidex/8/86/latest/20190406151903/Ivysaur.png",
+            "evolucions":{
+                "id_evolucio":"0001",
+                "nivell_necessari":"16"
+            }
+        },
+        {
+            "id":244,
+            "nom":"Entei",
+            "tipus":"Fuego",
+            "pes":"198.0kg",
+            "altura":"2.1m",
+            "estadistiques":{
+                "velocitat":4,
+                "fortalesa":5,
+                "precisio":3,
+                "resistencia":4
+            },
+            "moviments": [
+                {
+                    "nom":"Dia soleado",
+                    "descripcio":"Día soleado es un movimiento de cambio de tiempo atmosférico que consiste en crear el tiempo soleado durante 5 turnos.",
+                    "potencia":null,
+                    "contacte":false
+                },
+                {
+                    "nom":"Fuego sagrado",
+                    "descripcio":"Fuego sagrado causa daño y tiene una probabilidad del 50% de quemar al objetivo.",
+                    "potencia":100,
+                    "contacte":false
+                }
+
+            ],
+            "imatge":"https://images.wikidexcdn.net/mwuploads/wikidex/0/0a/latest/20200428203743/Entei.png",
+            "evolucions":{
+                "id":null,
+                "nivell_necessari":null
+            }
+        }
+    ]
+}
